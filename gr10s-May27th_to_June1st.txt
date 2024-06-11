@@ -1,0 +1,40 @@
+The first 3 problems must be done on paper and then typed onto the computer.
+
+====================================== QUESTION 1 =====================================
+Do Project Euler Problem 5. https://projecteuler.net/problem=5
+
+====================================== QUESTION 2 =====================================
+Do Project Euler Problem 10. https://projecteuler.net/problem=10
+
+====================================== QUESTION 3 =====================================
+Implement the following function:
+
+static List<Double> getCappedVals(List<Double> initialNums, double min, double max) {
+	// Implement the following logic:
+	// Go through each number in initialNums.
+	// 	If the number is in the range between min and max, add it to the list we return.
+	// 	If the number is less than min, then add min to the list we return.
+	// 	If the number is greater than max, then add max to the list we return.
+}
+
+====================================== QUESTION 4 =====================================
+Implement the following function. Assume that the given list of strings is in alphabetical order.
+Modify the list such that the given string, str, is inserted into the correct position so that the
+list is still in alphabetical order.
+
+static void insertStrIntoList(List<String> list, String str) {
+	// Fill in the rest
+}
+
+====================================== QUESTION 5 =====================================
+static List<Double> flattenList(List<List<Double>> listOfLists) {
+	// Return a "flattened" list.
+	// Example: If listOfLists if {{1, 2, 3}, {4, 5}, {6}}, the returned list should be {1, 2, 3, 4, 5, 6}
+}
+
+====================================== QUESTION 6 =====================================
+Create a program that takes input from the user for a website to enter into the browser.
+The program should verify that the input entered by the user is a valid website.
+Once the input is validated, the program should open the website in a browser on the computer.
+The program keeps asking the user for input. The user should be able to end the program by typing "quit".
+
