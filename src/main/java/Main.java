@@ -1,4 +1,6 @@
 import java.util.*;
+import java.awt.Desktop;
+import java.net.URI;
 
 public class Main {
   public static void main(String[] args) {
@@ -99,6 +101,12 @@ public class Main {
       e.printStackTrace();
     }
     */
+  try {
+    URI uri = new URI(input);
+    Desktop.getDesktop().browse(uri);
+  } catch (Exception evt) {
+    System.out.println("Unable to open web  addess");
+  }
   return true;
   }
 
