@@ -55,7 +55,7 @@ public class Main {
       String[] splitInput = input.split("://");
       protocol = splitInput[0];
       address = splitInput[1];
-    } else {
+    } else { 
       protocol = "https";
       address = input;
     }
