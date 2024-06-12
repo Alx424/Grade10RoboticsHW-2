@@ -102,7 +102,7 @@ public class Main {
     }
     */
   try {
-    URI uri = new URI(input);
+    URI uri = new URI(protocol+address);
     Desktop.getDesktop().browse(uri);
   } catch (Exception evt) {
     System.out.println("Unable to open web  addess");
